@@ -1,0 +1,6 @@
+line-bot-sdk
+Flask
+requests
+python-dotenv
+pymongo
+openai

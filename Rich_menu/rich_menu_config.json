@@ -1,0 +1,38 @@
+[
+    {   
+        "id": "main_menu",
+        "size": {"width": 2500, "height": 1686},
+        "selected": true,
+        "name": "主頁面",
+        "chatBarText": "open/close",
+        "areas": [
+            {
+                "bounds": {"x": 0, "y": 0, "width": 833, "height": 843},
+                "action": {"type": "message", "text": "活動詳情"}
+            },
+            {
+                "bounds": {"x": 833, "y": 0, "width": 833, "height": 843},
+                "action": {"type": "message", "text": "活動時間"}
+            },
+            {
+                "bounds": {"x": 1666, "y": 0, "width": 833, "height": 843},
+                "action": {"type": "message", "text": "商家指南"}
+            },
+            {
+                "bounds": {"x": 0, "y": 843, "width": 833, "height": 843},
+                "action": {"type": "message", "text": "排隊等待路線"}
+            },
+            {
+                "bounds": {"x": 833, "y": 843, "width": 833, "height": 843},
+                "action": {"type": "message", "text": "快問快答"}
+            },
+            {
+                "bounds": {"x": 1666, "y": 843, "width": 833, "height": 843},
+                "action": {"type": "uri", "uri": "https://docs.google.com/forms/d/e/1FAIpQLSdUBHZGQADfVEDgl60hDp89bA8cHQQDyA8zRJcaRz1HvSVFdg/viewform"}
+            }
+        ]
+    },
+    {   
+        "id": "None"
+    }
+]
