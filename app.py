@@ -1,4 +1,4 @@
-import read_game as rg
+from read_json import read_game as rg
 import os
 import dotenv
 from flask import Flask, request, abort
@@ -9,12 +9,12 @@ from linebot.exceptions import (
     InvalidSignatureError
 )
 from linebot.models import *
-import read_activity as ra
+from read_json import read_activity as ra
 import random
-import MongoDB_profile as mp
-import quick_reply as qr
-import gpt_path as gp
-import gpt_db as gd
+import db.MongoDB_profile as mp
+import line_reply.quick_reply as qr
+from gpt import gpt_path as gp
+from db import gpt_db as gd
 app = Flask(__name__)
 handler = WebhookHandler('c344b99b7772e6dba5881b32bed91db9')
 
